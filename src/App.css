@@ -1,0 +1,50 @@
+body{
+  background: #3c3f4205 !important;
+}
+.card-aud {
+  flex-direction: column;
+  align-items: center;
+}
+.App {
+  margin: 100px;
+}
+.file-upload-area {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+  justify-content: center;
+}
+.card-body-aud{
+  background: #ffffffe6;
+  border: 2px solid #d9e1e7;
+}
+.upload-msg{
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.title-name-aud {
+  margin-left: 20px;
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.card {
+  width: 100%;
+}
+.card-section-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.card.audiogram-card {
+  background: none;
+  margin: 20px;
+  border: none;
+}
+.design-card{
+  margin-top: 20px;
+}
