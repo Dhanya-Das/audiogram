@@ -42,9 +42,63 @@ body{
 }
 .card.audiogram-card {
   background: none;
-  margin: 20px;
+  margin-left: 4rem;
+  margin-top: 1.9rem;
   border: none;
 }
 .design-card{
-  margin-top: 20px;
+  margin-top: 30px;
+}
+.card-body.preview-area {
+  border: 1px solid #0000000f;
+  height: 300px;
+}
+
+/* ------Profile image upload-------------------- */
+button.download-btn {
+  border: none;
+  padding: 0.5rem;
+  width: 20%;
+  margin-top: 1rem;
+  background: #0087fd;
+  color: #fff;
+  border-radius: 10px;
+}
+button.download-btn:hover {
+  opacity: 0.7;
+}
+.color-picker {
+  display: flex;
+  align-items: center;
+}
+span.color-picker-val {
+  border: 1px solid #ced4da;
+  padding: 7px 15px;
+  border-radius: 2px;
+}
+img.playerProfilePic_home_tile {
+  width: 20%;
+}
+.bg-img-preview {
+  padding: 1rem;
+  border: 1px solid #ced4da;;
+}
+button.btn-close {
+  position: absolute;
+  width: 0.2em;
+  height: 0.2em;
+}
+img.profile-avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: none;
+}
+audio.react-audio-player {
+  width: 100%;
+  margin-top: 10rem;
+}
+.download-btn-area {
+  display: flex;
+  justify-content: flex-end;
 }
